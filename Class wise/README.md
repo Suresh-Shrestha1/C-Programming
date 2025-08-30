@@ -36,3 +36,26 @@ This collection is designed to help students and beginners learn C programming t
 
 ---
 
+
+## 📝 Example Topics Covered
+
+- Input/output operations
+- Arithmetic and logical operations
+- Conditional statements (`if-else`, `switch`)
+- Looping constructs (`for`, `while`)
+- Arrays and multidimensional arrays
+- Functions (with/without return, recursion)
+- Pointers and pointer arithmetic
+- Structures and structure arrays
+- File handling (read/write/append/copy)
+- Sorting and filtering data
+
+---
+
+## 📚 Tips
+
+- Some files use hardcoded array sizes or fixed numbers for demonstration.
+- File paths in file handling examples may need adjustment based on your system.
+- The code is intended for educational purposes and may not handle all edge cases.
+
+---
