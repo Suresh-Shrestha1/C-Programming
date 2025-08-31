@@ -96,7 +96,7 @@ Illustrates pre and post increment/decrement.
 Demonstrates logical operators used in decision-making.
 
 **Operators Covered:**  
-- AND (`&&`), OR (`||`), NOT (`!`)
+- Logical AND (`&&`), Logical OR (`||`), Logical NOT (`!`)
 
 **Concepts:**  
 - Conditional checks  
