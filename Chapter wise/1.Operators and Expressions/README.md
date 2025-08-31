@@ -39,3 +39,48 @@ Demonstrates assignment and compound assignment operators.
 - Reducing code verbosity
 
 ---
+
+### 3. ⚙️ `bitwise.c`
+**Purpose:**  
+Shows how bitwise operations work.
+
+**Operators Covered:**  
+- AND (`&`), OR (`|`), XOR (`^`), NOT (`~`)  
+- Left Shift (`<<`), Right Shift (`>>`)
+
+**Concepts:**  
+- Bit-level manipulation  
+- Flags and low-level optimization
+
+---
+
+### 4. ➕➕ `comma.c`
+**Purpose:**  
+Demonstrates the use of the comma operator.
+
+**Concepts:**  
+- Evaluating multiple expressions in a single statement  
+- Useful in `for` loops and complex expressions
+
+---
+
+### 5. 🧮 `expression.c`
+**Purpose:**  
+Evaluates a complex arithmetic expression combining multiple operators.
+
+**Concepts:**  
+- Operator precedence  
+- Associativity  
+- Proper use of parentheses
+
+---
+
+### 6. 🔼🔽 `increment_decrement.c`
+**Purpose:**  
+Illustrates pre and post increment/decrement.
+
+**Operators Covered:**  
+- Pre-increment (`++var`)  
+- Post-increment (`var++`)  
+- Pre-decrement (`--var`)  
+- Post-decrement (`var--`)
