@@ -84,3 +84,32 @@ Illustrates pre and post increment/decrement.
 - Post-increment (`var++`)  
 - Pre-decrement (`--var`)  
 - Post-decrement (`var--`)
+
+**Concepts:**  
+- Subtle differences in prefix vs postfix  
+- Real-world loop and update use cases
+
+---
+
+### 7. 🧠 `logical.c`
+**Purpose:**  
+Demonstrates logical operators used in decision-making.
+
+**Operators Covered:**  
+- AND (`&&`), OR (`||`), NOT (`!`)
+
+**Concepts:**  
+- Conditional checks  
+- Combining multiple conditions
+
+---
+
+### 8. 🧮📐 `operator_precedence.c`
+**Purpose:**  
+Shows how operator precedence affects evaluation order.
+
+**Concepts:**  
+- Precedence and associativity  
+- Writing expressions that behave as expected
+
+---
