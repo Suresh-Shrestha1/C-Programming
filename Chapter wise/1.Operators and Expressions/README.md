@@ -113,3 +113,28 @@ Shows how operator precedence affects evaluation order.
 - Writing expressions that behave as expected
 
 ---
+
+### 9. 📊 `relational.c`
+**Purpose:**  
+Demonstrates relational operators.
+
+**Operators Covered:**  
+- Equal to (`==`), Not equal to (`!=`)  
+- Greater than (`>`), Less than (`<`)  
+- Greater than or equal to (`>=`), Less than or equal to (`<=`)
+
+**Concepts:**  
+- Comparing values  
+- Essential for conditions and control flow
+
+---
+
+### 10. 📦 `sizeof.c`
+**Purpose:**  
+Finds the size of different data types using the `sizeof` operator.
+
+**Concepts:**  
+- Understanding memory size of variables  
+- Portable code and memory management
+
+---
