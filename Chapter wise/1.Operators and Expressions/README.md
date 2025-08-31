@@ -138,3 +138,35 @@ Finds the size of different data types using the `sizeof` operator.
 - Portable code and memory management
 
 ---
+
+### 11. ❓ `ternary.c`
+**Purpose:**  
+Uses the ternary operator to find the maximum of two numbers.
+
+**Operator Covered:**  
+- Ternary (`condition ? true : false`)
+
+**Concepts:**  
+- Writing concise decision-making code  
+- Replacing simple `if-else` logic
+
+---
+
+### 12. 🔄 `type_casting.c`
+**Purpose:**  
+Demonstrates implicit and explicit type casting.
+
+**Concepts:**  
+- Type conversion between `int`, `float`, `char`, etc.  
+- Preventing data loss  
+- Controlling precision
+
+---
+
+## 🎯 Purpose and Learning Outcomes
+These programs help you:
+- Understand and practice various C operators.
+- Learn operator precedence and associativity.
+- Write correct and efficient expressions.
+- Apply type casting properly.
+- Build a strong foundation in C programming.
