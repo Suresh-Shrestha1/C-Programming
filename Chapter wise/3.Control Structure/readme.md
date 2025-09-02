@@ -73,3 +73,51 @@ Uses `break` to exit a loop when the number 5 is found.
 - Immediately terminates the nearest enclosing loop or switch.
 
 ---
+
+### 8. ⏭️ `continue.c`
+**Purpose:**  
+Skips printing the number 5 in a loop using `continue`.
+
+**Concept:**  
+- Skips the current iteration and continues with the next one.
+
+---
+
+### 9. 🪂 `goto.c`
+**Purpose:**  
+Jumps to a labeled section of the code when a condition is met.
+
+**Concept:**  
+- Demonstrates unconditional jump using `goto` (use with caution).
+
+---
+
+### 10. 🔁🔍 `nested_loop_if.c`
+**Purpose:**  
+Prints even numbers between 1 and 10 using a loop and an `if` condition.
+
+**Concept:**  
+- Combines control structures: nesting a condition inside a loop.
+
+---
+
+### 11. 🔢 `switch_case.c`
+**Purpose:**  
+Performs basic arithmetic operations using a `switch` statement.
+
+**Concept:**  
+- Cleaner alternative to multiple `if-else-if` chains.
+- Selects code block to execute based on value.
+
+---
+
+
+## 🎯 Purpose and Learning Outcomes
+These programs are designed for educational purposes to help you:
+- Understand the flow of control in C programs.
+- Learn how to make decisions and execute conditional logic.
+- Practice loops: for, while, and do-while.
+- Use control jump statements like break, continue, and goto.
+- Explore structured branching using switch-case.
+
+By mastering these control structures, you'll be well-equipped to build logic-driven C programs and move on to more advanced programming tasks.
