@@ -40,3 +40,40 @@ Searches for a user-provided number in an array using the **linear search** tech
 Useful when the array is small or unsorted.
 
 ---
+
+### 3. 🫧 `bubble_sort.c`
+**Purpose:**  
+Sorts a one-dimensional array using the **bubble sort** algorithm.
+
+**How It Works:**  
+- Compares adjacent elements and swaps them if they are in the wrong order  
+- Repeats this process until the array is sorted
+
+**Concepts Covered:**  
+- Nested loops  
+- Element swapping  
+- Basic sorting logic
+
+**Tip:**  
+Great starting point to understand sorting mechanics and time complexity.
+
+---
+
+### 4. 🔽 `selsection_sort.c`
+**Purpose:**  
+Sorts an array using the **selection sort** algorithm.
+
+**How It Works:**  
+- Finds the minimum element in the unsorted part  
+- Swaps it with the first unsorted element  
+- Repeats this process for all positions
+
+**Concepts Covered:**  
+- Searching for minimum  
+- Index manipulation  
+- In-place sorting
+
+**Note:**  
+Simple but not the most efficient for large datasets.
+
+---
