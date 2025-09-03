@@ -77,3 +77,29 @@ Sorts an array using the **selection sort** algorithm.
 Simple but not the most efficient for large datasets.
 
 ---
+
+### 5. 🧮 `matrix_two_dimensional.c`
+**Purpose:**  
+Takes input for a **2x2 matrix** and prints it in matrix form.
+
+**How It Works:**  
+- Uses nested loops to input and output elements of a two-dimensional array  
+- Outputs the matrix in a formatted grid layout
+
+**Concepts Covered:**  
+- Two-dimensional arrays (`int matrix[2][2]`)  
+- Nested `for` loops  
+- Row-column access
+
+**Real-World Usage:**  
+Matrices are widely used in graphics, simulations, and scientific calculations.
+
+---
+
+## 🎯 Purpose and Learning Outcomes
+These programs will help you:
+- Understand how arrays are stored and accessed in C
+- Implement basic searching algorithms (like linear search)
+- Sort arrays using simple techniques (bubble and selection sort)
+- Master two-dimensional arrays for matrix manipulation
+- Strengthen logical thinking with loops and conditional statements
