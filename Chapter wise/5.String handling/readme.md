@@ -33,3 +33,48 @@ Takes a source string from the user and copies it into a destination variable.
 - `strcpy()` from `<string.h>`
 
 ---
+
+### 3. 🤝 `compare.c`
+**Purpose:**  
+Compares two strings using `strcmp()`.
+
+**How It Works:**  
+- Takes two strings as input  
+- Uses `strcmp()` to check for equality  
+- Displays the result based on comparison
+
+**Concepts Covered:**  
+- String comparison  
+- ASCII-based evaluation
+
+---
+
+### 4. ➕ `concatenate_two_string.c`
+**Purpose:**  
+Concatenates (joins) two strings using `strcat()`.
+
+**How It Works:**  
+- Takes two strings  
+- Joins the second to the first  
+- Displays the combined string
+
+**Concepts Covered:**  
+- String concatenation  
+- Proper string termination
+
+---
+
+### 5. 📏 `length.c`
+**Purpose:**  
+Finds the length of a string using `strlen()`.
+
+**How It Works:**  
+- Accepts a string input  
+- Uses `strlen()` to determine its length  
+- Displays the number of characters
+
+**Concepts Covered:**  
+- String length  
+- Null-terminator awareness
+
+---
