@@ -78,3 +78,33 @@ Finds the length of a string using `strlen()`.
 - Null-terminator awareness
 
 ---
+
+### 6. 🔁 `reverse.c`
+**Purpose:**  
+Reverses a string manually using a loop.
+
+**How It Works:**  
+- Calculates the string length  
+- Iterates from the end to the start  
+- Prints characters in reverse order
+
+**Concepts Covered:**  
+- Manual string traversal  
+- Looping logic
+
+---
+
+### 7. 🔄 `palindrome.c`
+**Purpose:**  
+Checks whether a string is a **palindrome**.
+
+**How It Works:**  
+- Reverses the string  
+- Compares it to the original  
+- Declares whether it is a palindrome
+
+**Concepts Covered:**  
+- String comparison  
+- Logic building with conditionals
+
+---
