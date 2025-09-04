@@ -108,3 +108,52 @@ Checks whether a string is a **palindrome**.
 - Logic building with conditionals
 
 ---
+
+### 8. 🔠 `uppercase.c`
+**Purpose:**  
+Converts all characters in a string to uppercase.
+
+**How It Works:**  
+- Uses `strupr()` (non-standard) or manually applies `toupper()`  
+- Displays the result in uppercase letters
+
+**Concepts Covered:**  
+- Character manipulation  
+- ASCII values and case conversion
+
+**Note:**  
+`strupr()` is not part of the C standard library and may not work on all compilers. Use `toupper()` with loops for portability.
+
+---
+
+### 9. 🗣️ `vowel_letter.c`
+**Purpose:**  
+Counts the number of vowels in a given string.
+
+**How It Works:**  
+- Iterates through each character  
+- Checks if it’s a vowel (`a`, `e`, `i`, `o`, `u`)  
+- Increments a counter and displays the result
+
+**Concepts Covered:**  
+- Character comparison  
+- String traversal and conditionals
+
+---
+
+## ⚠️ Notes
+- ❌ `gets()` is deprecated and unsafe. Use `fgets()` or `scanf(" %[^\n]", str)` for safe input handling.
+- ⚠️ `strupr()` is not part of the C standard library. Use `toupper()` with loops for better compatibility.
+- ✅ All programs are simple, beginner-friendly, and focused on core logic.
+
+---
+
+## 🎯 Purpose and Learning Outcomes
+These programs will help you:
+- Understand how strings work in C (null-terminated character arrays)
+- Learn how to copy, concatenate, compare, and reverse strings
+- Practice solving common string-based problems like palindrome checks
+- Manipulate and analyze string data character by character
+- Build a strong foundation in string handling logic
+
+---
