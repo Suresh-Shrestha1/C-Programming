@@ -34,3 +34,46 @@ Adds two numbers using a function that takes arguments but returns nothing.
 - Printing inside a function
 
 ---
+
+### 3. 🔁 `call_by_reference.c`
+**Purpose:**  
+Demonstrates **call by reference** by modifying a variable using pointers.
+
+**Concepts Covered:**  
+- Pointer usage  
+- Address passing to functions  
+- Value modification in-place
+
+---
+
+### 4. 🚫 `call_by_value.c`
+**Purpose:**  
+Illustrates **call by value** where changes inside the function do not affect the original variable.
+
+**Concepts Covered:**  
+- Parameter passing by value  
+- Scope and variable independence
+
+---
+
+### 5. 🔢 `factorial.c`
+**Purpose:**  
+Calculates the factorial of a number using recursion.
+
+**Concepts Covered:**  
+- Recursive function calls  
+- Base and recursive cases  
+- Integer return values
+
+---
+
+### 6. 🐚 `fibonacci.c`
+**Purpose:**  
+Prints the Fibonacci sequence up to `n` terms using a recursive function.
+
+**Concepts Covered:**  
+- Recursive logic  
+- Series generation  
+- Function nesting
+
+---
