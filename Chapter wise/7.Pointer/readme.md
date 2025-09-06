@@ -65,3 +65,100 @@ Demonstrates an **array of pointers to strings**.
 - Traversing arrays of string literals
 
 ---
+
+### 5. 🔢 `pointer_arrays.c`  
+**Purpose:**  
+Uses pointer arithmetic to access array elements.
+
+**How It Works:**  
+- Declares an integer array  
+- Accesses elements using both array indexing and pointer arithmetic
+
+**Concepts Covered:**  
+- Pointer and array relationship  
+- Arithmetic operations on pointers
+
+---
+
+### 6. 🔡 `print_character.c`  
+**Purpose:**  
+Prints each character of a string using a pointer.
+
+**How It Works:**  
+- Assigns pointer to string  
+- Uses loop and pointer increment to access each character
+
+**Concepts Covered:**  
+- String traversal using pointers  
+- Character-by-character output
+
+---
+
+## 🧠 Dynamic Memory Allocation (DMA)
+
+### 7. 🗃️ `malloc_DMA.c`  
+**Purpose:**  
+Allocates memory for an integer array using `malloc()`.
+
+**How It Works:**  
+- Allocates space based on user input  
+- Reads and displays values  
+- Frees the memory
+
+**Concepts Covered:**  
+- `malloc()`  
+- Dynamic arrays  
+- Memory management
+
+---
+
+### 8. 🧮 `calloc_DMA.c`  
+**Purpose:**  
+Uses `calloc()` to allocate zero-initialized memory for a float array.
+
+**How It Works:**  
+- Allocates and initializes memory  
+- Accepts and displays values  
+- Frees memory after use
+
+**Concepts Covered:**  
+- `calloc()`  
+- Memory initialization  
+- Type-specific dynamic arrays
+
+---
+
+### 9. ➕ `realloc_DMA.c`  
+**Purpose:**  
+Resizes a dynamically allocated array using `realloc()`.
+
+**How It Works:**  
+- Starts with small dynamic array  
+- Resizes it to accommodate more elements  
+- Displays full list after expansion
+
+**Concepts Covered:**  
+- `realloc()`  
+- Resizing arrays dynamically  
+- Combining multiple DMA techniques
+
+---
+
+## ⚠️ Notes
+- ✅ Always `free()` dynamically allocated memory to avoid memory leaks.
+- ❗ Avoid using uninitialized or dangling pointers.
+- 🧼 Use pointer checks (`if (ptr != NULL)`) after allocation.
+
+---
+
+## 🎯 Purpose and Learning Outcomes
+
+These programs will help you:
+
+- Understand how pointers work in C — referencing, dereferencing, and multi-level pointers
+- Practice manipulating variables and arrays using pointers
+- Grasp how strings and character arrays relate to pointers
+- Use `malloc()`, `calloc()`, and `realloc()` to manage memory at runtime
+- Write memory-efficient, pointer-based C programs
+
+---
