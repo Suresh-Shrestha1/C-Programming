@@ -116,3 +116,45 @@ Checks if a student has **passed or failed** based on marks using a structure.
 - Resource efficiency
 
 ---
+
+### 8. 🔄 `union.c`
+**Purpose:**  
+Demonstrates basic **union behavior**.
+
+**How It Works:**  
+- Declares a union  
+- Assigns values to members  
+- Shows how writing to one member affects others
+
+**Concepts Covered:**  
+- Union declaration  
+- Shared memory space  
+- Data overwriting
+
+---
+
+### 9. 💾 `union_stored.c`
+**Purpose:**  
+Further demonstrates **how unions store data** internally.
+
+**How It Works:**  
+- Writes values to different members  
+- Observes how changes affect memory  
+- Displays overwritten results
+
+**Concepts Covered:**  
+- Memory sharing in unions  
+- Order of assignment matters  
+- Understanding data corruption
+
+---
+
+## 🎯 Purpose and Learning Outcomes
+These programs will help you:
+- Organize complex data using structures
+- Work with pointers and arrays inside structures
+- Understand how unions conserve memory
+- Learn how bit fields control data size
+- Compare and contrast structures vs unions in real-world memory usage
+
+---
