@@ -54,3 +54,65 @@ Demonstrates how to use a **pointer to a structure**.
 - Efficient data handling
 
 ---
+
+### 4. 🏢 `nested_structure.c`
+**Purpose:**  
+Illustrates how **nested structures** work.
+
+**How It Works:**  
+- Defines an `Employee` structure  
+- Contains an inner `Address` structure  
+- Displays complete details including address
+
+**Concepts Covered:**  
+- Structure inside another structure  
+- Dot notation chaining  
+- Grouping related data
+
+---
+
+### 5. ⚙️ `bit_field.c`
+**Purpose:**  
+Shows how to use **bit fields** for efficient storage.
+
+**How It Works:**  
+- Declares structure members with limited bits  
+- Demonstrates compact data representation
+
+**Concepts Covered:**  
+- Bit field declaration  
+- Memory optimization  
+- Bit-level data storage
+
+---
+
+### 6. ✅ `structure_using_condition.c`
+**Purpose:**  
+Checks if a student has **passed or failed** based on marks using a structure.
+
+**How It Works:**  
+- Stores student marks  
+- Applies condition to determine result  
+- Displays pass/fail message
+
+**Concepts Covered:**  
+- Conditional logic with structures  
+- Decision making  
+- Data validation
+
+---
+
+### 7. 🧠 `structure_union_memory_use.c`
+**Purpose:**  
+**Compares memory usage** between a structure and a union.
+
+**How It Works:**  
+- Declares identical members in both structure and union  
+- Prints `sizeof()` for both types
+
+**Concepts Covered:**  
+- Memory layout  
+- Union vs structure memory  
+- Resource efficiency
+
+---
