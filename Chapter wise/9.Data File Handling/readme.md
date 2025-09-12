@@ -120,3 +120,88 @@ Opens `file1.txt` in `"r+"` mode, updates content, then reads.
 - In-place file update
 
 ---
+
+### 8. ➕🔍 `append_read.c`
+**Purpose:**  
+Appends new data and reads file using `"a+"` mode.
+
+**How It Works:**  
+- Appends data  
+- Moves cursor back to read  
+- Displays entire file content
+
+**Concepts Covered:**  
+- `a+` file mode  
+- `fseek()` to start  
+- Reading after appending
+
+---
+
+## 💾 Binary File Operations with Structures
+
+### 9. 📚 `write_read_structure_data.c`
+**Purpose:**  
+Writes a `Student` structure to a binary file and reads it back.
+
+**How It Works:**  
+- Uses `fwrite()` to write struct  
+- Uses `fread()` to read back  
+- Displays structure data
+
+**Concepts Covered:**  
+- Binary file access  
+- Struct I/O with files  
+- `fwrite()` / `fread()`
+
+---
+
+### 10. 🎯 `random_access.c`
+**Purpose:**  
+Performs random access to records in a binary file using `fseek()`.
+
+**How It Works:**  
+- Writes multiple student records  
+- Jumps to second record using offset  
+- Reads and displays that record
+
+**Concepts Covered:**  
+- `fseek()` for random access  
+- Calculating byte offsets  
+- Binary file manipulation
+
+---
+
+## 📁 Data Files Used
+
+| File Name      | Purpose                                      |
+|----------------|----------------------------------------------|
+| `data.txt`     | Used for basic text read/write/append tests |
+| `file1.txt`    | Used for read-write-append combined modes    |
+| `student.dat`  | Used for storing and accessing binary records|
+
+---
+
+## ✅ Summary of Concepts
+
+These programs cover:
+
+- 📄 Text file operations: `w`, `r`, `a`, `r+`, `w+`, `a+`
+- 🔁 Combined reading and writing modes
+- 💾 Binary file handling with structures
+- 🎯 Random access using `fseek()` and `ftell()`
+- 📐 File pointer manipulation
+- 🧹 File closing and error checking
+
+---
+
+## 🎯 Purpose and Learning Outcomes
+
+You will learn to:
+
+- Create, read, write, and update files in C
+- Choose the correct file mode for your task
+- Understand the differences between text and binary file I/O
+- Manipulate file pointers for efficient file navigation
+- Store and retrieve structured data in binary form
+
+---
