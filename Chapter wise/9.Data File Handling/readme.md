@@ -55,3 +55,68 @@ Reads `data.txt` line by line using `fgets()`.
 - Text file processing
 
 ---
+
+### 4. ➕ `append_text.c`
+**Purpose:**  
+Appends a new line to `data.txt` using append (`a`) mode.
+
+**How It Works:**  
+- Opens file in append mode  
+- Adds content without overwriting  
+- Writes new line at the end
+
+**Concepts Covered:**  
+- `fopen()` with `"a"`  
+- Appending data safely  
+- File extension handling
+
+---
+
+### 5. 🔄 `update_text.c`
+**Purpose:**  
+Updates the beginning of `data.txt` using read/update (`r+`) mode.
+
+**How It Works:**  
+- Opens the file in `"r+"` mode  
+- Moves cursor to beginning  
+- Overwrites initial part of the file
+
+**Concepts Covered:**  
+- File update in-place  
+- Cursor positioning  
+- Combined reading and writing
+
+---
+
+## 🔁 Combined Read/Write and Append Operations
+
+### 6. 📝🔍 `write_read.c`
+**Purpose:**  
+Creates `file1.txt` using `"w+"` mode, writes to it, then reads content.
+
+**How It Works:**  
+- Writes data  
+- Rewinds the file  
+- Reads from beginning
+
+**Concepts Covered:**  
+- `w+` mode for full access  
+- `rewind()` or `fseek()` usage  
+- Writing then reading
+
+---
+
+### 7. 🛠️ `update_read.c`
+**Purpose:**  
+Opens `file1.txt` in `"r+"` mode, updates content, then reads.
+
+**How It Works:**  
+- Overwrites part of the file  
+- Displays updated contents
+
+**Concepts Covered:**  
+- File cursor control  
+- Overwriting content safely  
+- In-place file update
+
+---
