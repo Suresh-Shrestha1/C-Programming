@@ -90,3 +90,117 @@ Draws a straight line.
 Line drawn from `(25, 110)` to `(220, 110)`.
 
 ---
+
+### 7. ▭ `rectangle.cpp`
+**Purpose:**  
+Draws a rectangle.
+
+**Function Used:**  
+`rectangle(left, top, right, bottom)`
+
+**Example:**  
+Rectangle from `(200, 90)` to `(390, 200)`.
+
+---
+
+### 8. 🌈 `Shape_background_color.cpp`
+**Purpose:**  
+Draws multiple shapes with a colored background.
+
+**Functions Used:**  
+- `setbkcolor(color)`  
+- `cleardevice()`  
+- `setcolor(color)`  
+- `circle(...)`, `rectangle(...)`, `ellipse(...)`
+
+**Example:**  
+Blue background with white circle, rectangle, and ellipse.
+
+---
+
+### 9. 🔺 `Triangle.cpp`
+**Purpose:**  
+Draws a triangle using a polygon.
+
+**Function Used:**  
+`drawpoly(points_count, points_array)`
+
+**Example:**  
+Triangle with vertices at `(150, 150)`, `(200, 80)`, `(250, 150)`.
+
+---
+
+## ▶️ How to Run the Code in Turbo C++:
+
+1. Open any `.cpp` file in **Turbo C++** or compatible IDE.
+2. Compile the code.
+3. Run the program.
+4. A **graphics window** will open displaying the shape(s).
+5. Press any key to close the window.
+
+---
+
+## ▶️ How to Use `graphics.h` in Dev C++ (Using WinBGI) 🎨
+
+### 1. **Download WinBGI** 🖥️
+- Go to [WinBGI website](https://winbgim.codecutter.org/) and download the library.
+
+### 2. **Install WinBGI** 📂
+- Extract the downloaded files to a folder, e.g., `C:\WinBGI`.
+
+### 3. **Set Up Dev C++** ⚙️
+1. Open **Dev C++**.
+2. Go to `Tools > Compiler Options`.
+3. In the **Directories** tab, add the following:
+   - **Include Directories**: `C:\WinBGI\include`
+   - **Library Directories**: `C:\WinBGI\lib`
+4. In the **Linker** tab, add `winbgim.lib`:
+   - Path: `C:\WinBGI\lib\winbgim.lib`
+
+### 4. **Write Your Code** 📝
+Example Code:
+```cpp
+#include <graphics.h>
+#include <conio.h>
+
+int main() {
+    int gd = DETECT, gm;
+    initgraph(&gd, &gm, "C:\\WinBGI\\BGI");  // Path to BGI folder
+
+    // Draw graphics
+    rectangle(100, 100, 400, 400);  // Rectangle
+    circle(250, 250, 50);           // Circle
+
+    getch();  // Wait for key press
+    closegraph();  // Close graphics
+    return 0;
+}
+```
+
+### 5. Compile and Run 🚀
+- Press F9 to compile.
+- Press Ctrl+F10 to run and see the graphics.
+
+---
+
+## 📝 Notes
+
+- You can **modify the coordinates and colors** to experiment with different shapes and designs.
+- Ensure your compiler has **`graphics.h`** configured correctly.
+- These programs are mostly **compatible with Turbo C++**, which uses **BGI (Borland Graphics Interface)**.
+
+---
+
+## 🧠 Purpose and Learning Outcomes
+
+By practicing with these programs, you will learn:
+
+- How to initialize the graphics mode
+- How to draw basic shapes (circle, line, rectangle, triangle, ellipse)
+- How to combine text and graphics
+- How to work with graphical output in legacy C environments
+
+---
+
+**END OF DOCUMENT** 
+---
