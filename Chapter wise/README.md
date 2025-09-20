@@ -39,3 +39,30 @@ This collection contains well-organized, practical C programs covering fundament
 
 ---
 
+## 💡 Why Use This Repository?
+
+- **Comprehensive:** Covers all major C programming concepts for 2nd semester.
+- **Beginner Friendly:** Each program is clearly commented and easy to follow.
+- **Ready to Run:** All code is tested and ready to compile.
+- **Perfect for Revision:** Quickly find and review any topic before exams.
+
+---
+
+## 🚦 How to Use
+
+1. **Browse by Topic:**  
+   Navigate to the relevant folder for the concept you want to study.
+
+2. **Read and Run:**  
+   Each `.c` or `.cpp` file is self-contained and ready to compile and run.  
+   Example (for GCC):
+   ```sh
+   gcc 1.Operators\ and\ Expressions/arithmetic.c -o arithmetic
+   ./arithmetic
+   ```
+
+3. **Learn by Example:**  
+   All programs are commented for easy understanding.
+
+---
+
