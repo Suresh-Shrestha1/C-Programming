@@ -198,3 +198,16 @@ Chapter wise/
 ```
 
 ---
+
+## 🤝 Contribution
+
+Want to make this resource even better?  
+Feel free to fork this repository and add more examples or improve existing ones. Pull requests are welcome!
+
+---
+
+## 📚 License
+
+This repository is for educational purposes.
+
+---
