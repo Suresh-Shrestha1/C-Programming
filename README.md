@@ -9,7 +9,8 @@ This repo contains lots of **examples, exercises, and mini-projects**, organized
 - 📖 **Chapter wise** → Learn by topics/chapters (Variables, Loops, Functions, etc.)  
 - 🏫 **Class wise** → Learn by classroom sessions in sequence
 
-This structure helps students follow along with their coursework while also providing topic-based reference material.
+**This structure helps students follow along with their coursework while also providing topic-based reference material.**
+
 ---
 
 ## 🌟 Features  
