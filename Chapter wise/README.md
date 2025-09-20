@@ -66,3 +66,135 @@ This collection contains well-organized, practical C programs covering fundament
 
 ---
 
+## 🗃️ Complete File and Folder Structure
+
+```
+Chapter wise/
+│
+├── 1.Operators and Expressions/
+│     ├── arithmetic.c
+│     ├── assignment.c
+│     ├── bitwise.c
+│     ├── comma.c
+│     ├── expression.c
+│     ├── increment_decrement.c
+│     ├── logical.c
+│     ├── operator_precedence.c
+│     ├── relational.c
+│     ├── sizeof.c
+│     ├── ternary.c
+│     ├── type_casting.c
+│     └── README.md
+│
+├── 2.Input and Output/
+│     ├── getch_putch&getche.c
+│     ├── getchar_putchar.c
+│     ├── gets_puts.c
+│     ├── printf_scanf.c
+│     └── README.md
+│
+├── 3.Control Structure/
+│     ├── break.c
+│     ├── continue.c
+│     ├── do_while_loop.c
+│     ├── for_loop.c
+│     ├── goto.c
+│     ├── if_else_if.c
+│     ├── if_else.c
+│     ├── if.c
+│     ├── nested_loop.c
+│     ├── switch_case.c
+│     ├── while_loop.c
+│     └── README.md
+│
+├── 4.Array/
+│     ├── bubble_sort.c
+│     ├── initialization_declaration.c
+│     ├── linear_search.c
+│     ├── matrix_two_dimensional.c
+│     ├── selection_sort.c
+│     └── README.md
+│
+├── 5.String Handling/
+│     ├── compare.c
+│     ├── concatenate_two_stirng.c
+│     ├── copy.c
+│     ├── length.c
+│     ├── palindrome.c
+│     ├── reverse.c
+│     ├── string.c
+│     ├── uppercase.c
+│     ├── vowel_letter.c
+│     └── README.md
+│
+├── 6.User Defined Function/
+│     ├── arguments_return.c
+│     ├── argumentss_no_return.c
+│     ├── call_by_reference.c
+│     ├── call_by_value.c
+│     ├── factorial.c
+│     ├── fibonacci.c
+│     ├── macros_header.c
+│     ├── mo_arguments_no_return.c
+│     ├── mo_arguments_return.c
+│     ├── passing_array_function.c
+│     ├── passing_string_function.c
+│     ├── power.c
+│     ├── reverse.c
+│     ├── sum_of_digits.c
+│     └── README.md
+│
+├── 7.Pointer/
+│     ├── array_pointer.c
+│     ├── calloc_DMA.c
+│     ├── declare_initialize_pointer.c
+│     ├── malloc_DMA.c
+│     ├── pointers_arrays.c
+│     ├── pointer_to_pointer.c
+│     ├── print_character.c
+│     ├── realloc_DMA.c
+│     ├── swap_digits.c
+│     └── README.md
+│
+├── 8.Structure/
+│     ├── bit_field.c
+│     ├── nested_structure.c
+│     ├── structure_array.c
+│     ├── structure_pointer.c
+│     ├── structure_union_memory_use.c
+│     ├── structure_using_condition.c
+│     ├── structure.c
+│     ├── union_stored.c
+│     ├── union.c
+│     └── README.md
+│
+├── 9.Data File Handling/
+│     ├── append_read.c
+│     ├── append_text.c
+│     ├── data.txt
+│     ├── file1.txt
+│     ├── random_access.c
+│     ├── read_text_line_by_line.c
+│     ├── read_text.c
+│     ├── update_read.c
+│     ├── update_text.c
+│     ├── write_read_structure_data.c
+│     ├── write_read.c
+│     ├── write_text.c
+│     └── README.md
+│
+├── 10.Graphics/
+│     ├── Circle.cpp
+│     ├── Concentric_Circles.cpp
+│     ├── cross.cpp
+│     ├── Ellipse_text.cpp
+│     ├── Ellipse.cpp
+│     ├── Line.cpp
+│     ├── rectangle.cpp
+│     ├── Shape_background_color.cpp
+│     ├── Triangle.cpp
+│     └── README.md
+└── README.md
+```
+
+---
