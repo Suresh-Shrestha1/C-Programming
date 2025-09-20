@@ -211,3 +211,16 @@ Feel free to fork this repository and add more examples or improve existing ones
 This repository is for educational purposes.
 
 ---
+
+## 🧑‍💻 Extra Features
+
+- **🧩 Modular Code:** Each example is self-contained and easy to integrate.
+- **📊 Practice Problems:** Many folders include extra exercises for self-assessment.
+- **📝 Notes:** Some folders contain markdown notes for quick revision.
+- **🔗 Useful Links:** References to official documentation and tutorials.
+
+---
+
+## 🌟 Happy Coding! 🌟
+Explore, learn, and master C programming with these chapter wise examples!  
+If you find this repository helpful, please give it a ⭐️ and share it with others.
